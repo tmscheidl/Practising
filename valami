@@ -1,0 +1,107 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "245becb8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter a line of the text:\n",
+      "Maybe you and me could take a trip to the sky Feels like I'm already there when I look in your eyes Ay, listen, baby, I was thinkin' maybe We could take a trip and go around the world Wouldn't really matter where we at as long as you're my girl Some say I'm crazy, but that don't faze me You remind me of the sunshine when it's rainin' Even if it's for a minute, I forget where my pain is And that's for real, that's the way I feel Got me feelin' so good every time you laugh I wonder how we got here, how did this happen I don't care, and baby girl I swear  Baby, you and me are like the stars in the sky Sometimes we look dim, sometimes we look bright And that's okay, yeah And that's okay, yeah And baby, you and me are like the rain in the clouds Sometimes we stay up, sometimes we fall down And that's alright, yeah And that's alright, yeah  But baby, hold up, I just gotta notice You look kinda mad, was it something that I said? 'Cause you know I didn't mean it Yeah, you know I didn't mean it You look kinda upset, was it something I did? If I had the chance then I would take it all back But I don't But I don't I don't wanna sound like I think I'm perfect 'Cause that's not me Yeah, that's not me I don't wanna act like I'm that kinda person Why can't you see? Why can't you see, yeah?  Baby, you and me are like the stars in the sky Sometimes we look dim, sometimes we look bright And that's okay, yeah And that's okay, yeah And baby, you and me are like the rain in the clouds Sometimes we stay up, sometimes we fall down And that's alright, yeah And that's alright, yeah  I don't wanna sound like I'm jokin', yo 'Cause the point I'm at is emotional Look at me go, talkin' about the pain I feel and the way, I don't Wanna see you walk out that door Can imagine not seeing you no more But I guess I'm just gonna have to get used to it and just learn to cope I don't know which way we're supposed to go Lookin' for the pieces of our hearts, it's obvious we're broke I'm so sick of the overload that's holdin' on them roll and go Maybe we should turn around if we forget we ever--No That would defeat the purpose, now wouldn't it? And this relationship isn't how I envisioned it This ain't how I pictured it, but I don't care 'Cause even when you're gone, it's like you're still here So, I don't wanna hear about how this ain't workin' And this relationship don't have no purpose And maybe tomorrow we ain't gon' be feelin' the same That's okay, as long as you know how I'm feelin' today  Baby, you and me are like the stars in the sky Sometimes we look dim, sometimes we look bright And that's okay, yeah And that's okay, yeah And baby, you and me are like the rain in the clouds Sometimes we stay up, sometimes we fall down And that's alright, yeah And that's alright, yeah\n",
+      "Words:  ['Maybe', 'you', 'and', 'me', 'could', 'take', 'a', 'trip', 'to', 'the', 'sky', 'Feels', 'like', \"I'm\", 'already', 'there', 'when', 'I', 'look', 'in', 'your', 'eyes', 'Ay,', 'listen,', 'baby,', 'I', 'was', \"thinkin'\", 'maybe', 'We', 'could', 'take', 'a', 'trip', 'and', 'go', 'around', 'the', 'world', \"Wouldn't\", 'really', 'matter', 'where', 'we', 'at', 'as', 'long', 'as', \"you're\", 'my', 'girl', 'Some', 'say', \"I'm\", 'crazy,', 'but', 'that', \"don't\", 'faze', 'me', 'You', 'remind', 'me', 'of', 'the', 'sunshine', 'when', \"it's\", \"rainin'\", 'Even', 'if', \"it's\", 'for', 'a', 'minute,', 'I', 'forget', 'where', 'my', 'pain', 'is', 'And', \"that's\", 'for', 'real,', \"that's\", 'the', 'way', 'I', 'feel', 'Got', 'me', \"feelin'\", 'so', 'good', 'every', 'time', 'you', 'laugh', 'I', 'wonder', 'how', 'we', 'got', 'here,', 'how', 'did', 'this', 'happen', 'I', \"don't\", 'care,', 'and', 'baby', 'girl', 'I', 'swear', 'Baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'stars', 'in', 'the', 'sky', 'Sometimes', 'we', 'look', 'dim,', 'sometimes', 'we', 'look', 'bright', 'And', \"that's\", 'okay,', 'yeah', 'And', \"that's\", 'okay,', 'yeah', 'And', 'baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'rain', 'in', 'the', 'clouds', 'Sometimes', 'we', 'stay', 'up,', 'sometimes', 'we', 'fall', 'down', 'And', \"that's\", 'alright,', 'yeah', 'And', \"that's\", 'alright,', 'yeah', 'But', 'baby,', 'hold', 'up,', 'I', 'just', 'gotta', 'notice', 'You', 'look', 'kinda', 'mad,', 'was', 'it', 'something', 'that', 'I', 'said?', \"'Cause\", 'you', 'know', 'I', \"didn't\", 'mean', 'it', 'Yeah,', 'you', 'know', 'I', \"didn't\", 'mean', 'it', 'You', 'look', 'kinda', 'upset,', 'was', 'it', 'something', 'I', 'did?', 'If', 'I', 'had', 'the', 'chance', 'then', 'I', 'would', 'take', 'it', 'all', 'back', 'But', 'I', \"don't\", 'But', 'I', \"don't\", 'I', \"don't\", 'wanna', 'sound', 'like', 'I', 'think', \"I'm\", 'perfect', \"'Cause\", \"that's\", 'not', 'me', 'Yeah,', \"that's\", 'not', 'me', 'I', \"don't\", 'wanna', 'act', 'like', \"I'm\", 'that', 'kinda', 'person', 'Why', \"can't\", 'you', 'see?', 'Why', \"can't\", 'you', 'see,', 'yeah?', 'Baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'stars', 'in', 'the', 'sky', 'Sometimes', 'we', 'look', 'dim,', 'sometimes', 'we', 'look', 'bright', 'And', \"that's\", 'okay,', 'yeah', 'And', \"that's\", 'okay,', 'yeah', 'And', 'baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'rain', 'in', 'the', 'clouds', 'Sometimes', 'we', 'stay', 'up,', 'sometimes', 'we', 'fall', 'down', 'And', \"that's\", 'alright,', 'yeah', 'And', \"that's\", 'alright,', 'yeah', 'I', \"don't\", 'wanna', 'sound', 'like', \"I'm\", \"jokin',\", 'yo', \"'Cause\", 'the', 'point', \"I'm\", 'at', 'is', 'emotional', 'Look', 'at', 'me', 'go,', \"talkin'\", 'about', 'the', 'pain', 'I', 'feel', 'and', 'the', 'way,', 'I', \"don't\", 'Wanna', 'see', 'you', 'walk', 'out', 'that', 'door', 'Can', 'imagine', 'not', 'seeing', 'you', 'no', 'more', 'But', 'I', 'guess', \"I'm\", 'just', 'gonna', 'have', 'to', 'get', 'used', 'to', 'it', 'and', 'just', 'learn', 'to', 'cope', 'I', \"don't\", 'know', 'which', 'way', \"we're\", 'supposed', 'to', 'go', \"Lookin'\", 'for', 'the', 'pieces', 'of', 'our', 'hearts,', \"it's\", 'obvious', \"we're\", 'broke', \"I'm\", 'so', 'sick', 'of', 'the', 'overload', \"that's\", \"holdin'\", 'on', 'them', 'roll', 'and', 'go', 'Maybe', 'we', 'should', 'turn', 'around', 'if', 'we', 'forget', 'we', 'ever--No', 'That', 'would', 'defeat', 'the', 'purpose,', 'now', \"wouldn't\", 'it?', 'And', 'this', 'relationship', \"isn't\", 'how', 'I', 'envisioned', 'it', 'This', \"ain't\", 'how', 'I', 'pictured', 'it,', 'but', 'I', \"don't\", 'care', \"'Cause\", 'even', 'when', \"you're\", 'gone,', \"it's\", 'like', \"you're\", 'still', 'here', 'So,', 'I', \"don't\", 'wanna', 'hear', 'about', 'how', 'this', \"ain't\", \"workin'\", 'And', 'this', 'relationship', \"don't\", 'have', 'no', 'purpose', 'And', 'maybe', 'tomorrow', 'we', \"ain't\", \"gon'\", 'be', \"feelin'\", 'the', 'same', \"That's\", 'okay,', 'as', 'long', 'as', 'you', 'know', 'how', \"I'm\", \"feelin'\", 'today', 'Baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'stars', 'in', 'the', 'sky', 'Sometimes', 'we', 'look', 'dim,', 'sometimes', 'we', 'look', 'bright', 'And', \"that's\", 'okay,', 'yeah', 'And', \"that's\", 'okay,', 'yeah', 'And', 'baby,', 'you', 'and', 'me', 'are', 'like', 'the', 'rain', 'in', 'the', 'clouds', 'Sometimes', 'we', 'stay', 'up,', 'sometimes', 'we', 'fall', 'down', 'And', \"that's\", 'alright,', 'yeah', 'And', \"that's\", 'alright,', 'yeah']\n",
+      "Counting...\n",
+      "Counts {'Maybe': 2, 'you': 15, 'and': 12, 'me': 13, 'could': 2, 'take': 3, 'a': 3, 'trip': 2, 'to': 5, 'the': 24, 'sky': 4, 'Feels': 1, 'like': 11, \"I'm\": 9, 'already': 1, 'there': 1, 'when': 3, 'I': 28, 'look': 9, 'in': 7, 'your': 1, 'eyes': 1, 'Ay,': 1, 'listen,': 1, 'baby,': 5, 'was': 3, \"thinkin'\": 1, 'maybe': 2, 'We': 1, 'go': 3, 'around': 2, 'world': 1, \"Wouldn't\": 1, 'really': 1, 'matter': 1, 'where': 2, 'we': 18, 'at': 3, 'as': 4, 'long': 2, \"you're\": 3, 'my': 2, 'girl': 2, 'Some': 1, 'say': 1, 'crazy,': 1, 'but': 2, 'that': 4, \"don't\": 12, 'faze': 1, 'You': 3, 'remind': 1, 'of': 3, 'sunshine': 1, \"it's\": 4, \"rainin'\": 1, 'Even': 1, 'if': 2, 'for': 3, 'minute,': 1, 'forget': 2, 'pain': 2, 'is': 2, 'And': 19, \"that's\": 17, 'real,': 1, 'way': 2, 'feel': 2, 'Got': 1, \"feelin'\": 3, 'so': 2, 'good': 1, 'every': 1, 'time': 1, 'laugh': 1, 'wonder': 1, 'how': 6, 'got': 1, 'here,': 1, 'did': 1, 'this': 4, 'happen': 1, 'care,': 1, 'baby': 1, 'swear': 1, 'Baby,': 3, 'are': 6, 'stars': 3, 'Sometimes': 6, 'dim,': 3, 'sometimes': 6, 'bright': 3, 'okay,': 7, 'yeah': 12, 'rain': 3, 'clouds': 3, 'stay': 3, 'up,': 4, 'fall': 3, 'down': 3, 'alright,': 6, 'But': 4, 'hold': 1, 'just': 3, 'gotta': 1, 'notice': 1, 'kinda': 3, 'mad,': 1, 'it': 7, 'something': 2, 'said?': 1, \"'Cause\": 4, 'know': 4, \"didn't\": 2, 'mean': 2, 'Yeah,': 2, 'upset,': 1, 'did?': 1, 'If': 1, 'had': 1, 'chance': 1, 'then': 1, 'would': 2, 'all': 1, 'back': 1, 'wanna': 4, 'sound': 2, 'think': 1, 'perfect': 1, 'not': 3, 'act': 1, 'person': 1, 'Why': 2, \"can't\": 2, 'see?': 1, 'see,': 1, 'yeah?': 1, \"jokin',\": 1, 'yo': 1, 'point': 1, 'emotional': 1, 'Look': 1, 'go,': 1, \"talkin'\": 1, 'about': 2, 'way,': 1, 'Wanna': 1, 'see': 1, 'walk': 1, 'out': 1, 'door': 1, 'Can': 1, 'imagine': 1, 'seeing': 1, 'no': 2, 'more': 1, 'guess': 1, 'gonna': 1, 'have': 2, 'get': 1, 'used': 1, 'learn': 1, 'cope': 1, 'which': 1, \"we're\": 2, 'supposed': 1, \"Lookin'\": 1, 'pieces': 1, 'our': 1, 'hearts,': 1, 'obvious': 1, 'broke': 1, 'sick': 1, 'overload': 1, \"holdin'\": 1, 'on': 1, 'them': 1, 'roll': 1, 'should': 1, 'turn': 1, 'ever--No': 1, 'That': 1, 'defeat': 1, 'purpose,': 1, 'now': 1, \"wouldn't\": 1, 'it?': 1, 'relationship': 2, \"isn't\": 1, 'envisioned': 1, 'This': 1, \"ain't\": 3, 'pictured': 1, 'it,': 1, 'care': 1, 'even': 1, 'gone,': 1, 'still': 1, 'here': 1, 'So,': 1, 'hear': 1, \"workin'\": 1, 'purpose': 1, 'tomorrow': 1, \"gon'\": 1, 'be': 1, 'same': 1, \"That's\": 1, 'today': 1}\n"
+     ]
+    }
+   ],
+   "source": [
+    "counts = dict()\n",
+    "print(\"Enter a line of the text:\")\n",
+    "line = input('')\n",
+    "\n",
+    "words = line.split()\n",
+    "\n",
+    "print('Words: ', words)\n",
+    "\n",
+    "print(\"Counting...\")\n",
+    "\n",
+    "for word in words:\n",
+    "    counts[word] = counts.get(word,0) + 1\n",
+    "print(\"Counts\", counts)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "4a44e4eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['1', '53', '34', '788']\n",
+      "\n",
+      "\n",
+      "['python']\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Regular Expression\n",
+    "\n",
+    "import re\n",
+    "\n",
+    "lsm = 'This is just a 1 practise to 53 become better and 34 better at programming in 788 in python'\n",
+    " \n",
+    "y = re.findall('[0-9]+', lsm)\n",
+    "\n",
+    "print(y)\n",
+    "print(\"\\n\")\n",
+    "x = re.findall('^This .*is .* ([^ ]*)', lsm)\n",
+    "print(x)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0ab7caa5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "441ea6d8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
